@@ -113,7 +113,7 @@ export default function Hero() {
         <div className={`mt-16 transition-opacity duration-700 ${videoAvailable ? 'opacity-100 block' : 'hidden'}`}>
           <div className="relative rounded-2xl overflow-hidden border border-border bg-surface shadow-sm aspect-video max-w-5xl">
             <video
-              src="/video/hero.mp4"
+              src={`${import.meta.env.BASE_URL}video/hero.mp4`}
               autoPlay
               muted
               loop

@@ -5,6 +5,7 @@ import { ArrowRight } from 'lucide-react';
 import Footer from '../components/Footer';
 
 const luxuryEase = [0.16, 1, 0.3, 1];
+const BASE = import.meta.env.BASE_URL;
 
 export default function Work() {
   const categories = [
@@ -14,7 +15,7 @@ export default function Work() {
       slug: 'product-photography',
       description: 'Studio-grade product presentation with controlled lighting, authentic shadows, and razor-sharp textures.',
       layoutType: 'single',
-      mainImage: '/images/product-photography/720d2680-0add-4140-aa03-4b9cb046f315.jpg',
+      mainImage: `${BASE}images/product-photography/720d2680-0add-4140-aa03-4b9cb046f315.jpg`,
       alt: 'Commercial studio product photography of luxury brown leather handbag',
     },
     {
@@ -23,15 +24,15 @@ export default function Work() {
       slug: 'ai-model',
       description: 'Show your products worn and styled in real-world commercial fashion contexts without talent booking or studio fees.',
       layoutType: 'large-left',
-      mainImage: '/images/ai-model/8f00879e-b69a-49b2-b284-0389909d1dbb.jpg',
+      mainImage: `${BASE}images/ai-model/8f00879e-b69a-49b2-b284-0389909d1dbb.jpg`,
       mainAlt: 'Smartwatch worn by male model in studio and outdoor setting',
       subImages: [
         {
-          url: '/images/ai-model/c5d57ab4-a560-47a7-9103-aea926c90ef7.jpg',
+          url: `${BASE}images/ai-model/c5d57ab4-a560-47a7-9103-aea926c90ef7.jpg`,
           alt: 'Commuter backpack on model outdoors',
         },
         {
-          url: '/images/ai-model/ff97d035-aa45-4954-b8ec-1aa919e37fe4.jpg',
+          url: `${BASE}images/ai-model/ff97d035-aa45-4954-b8ec-1aa919e37fe4.jpg`,
           alt: 'Gold pendant necklace on female model',
         },
       ],
@@ -42,7 +43,7 @@ export default function Work() {
       slug: 'lifestyle',
       description: 'Contextual storytelling and architectural atmospheres that help shoppers picture the product in their daily life.',
       layoutType: 'single',
-      mainImage: '/images/lifestyle/8199a959-6cf3-47d1-9694-ea357814f34e.jpg',
+      mainImage: `${BASE}images/lifestyle/8199a959-6cf3-47d1-9694-ea357814f34e.jpg`,
       alt: 'Architectural moody lifestyle scene featuring wireless headphones',
     },
     {
@@ -51,15 +52,15 @@ export default function Work() {
       slug: 'marketplace',
       description: 'High-converting Amazon and marketplace listing graphics with feature breakdowns, dimensions, and callout overlays.',
       layoutType: 'large-right',
-      mainImage: '/images/marketplace/67474991-eaa1-45b9-99f7-415aa970bdaa.jpg',
+      mainImage: `${BASE}images/marketplace/67474991-eaa1-45b9-99f7-415aa970bdaa.jpg`,
       mainAlt: 'Linen shirt Amazon A+ listing infographic breakdown',
       subImages: [
         {
-          url: '/images/marketplace/f2ff9b67-c343-453d-bd69-57acf65847e2.jpg',
+          url: `${BASE}images/marketplace/f2ff9b67-c343-453d-bd69-57acf65847e2.jpg`,
           alt: 'STRYD running sneakers feature breakdown',
         },
         {
-          url: '/images/marketplace/fd957b8c-1589-4ab1-af5f-a85ba4db85f3.jpg',
+          url: `${BASE}images/marketplace/fd957b8c-1589-4ab1-af5f-a85ba4db85f3.jpg`,
           alt: 'Lumina facial serum marketplace graphics',
         },
       ],
@@ -70,11 +71,11 @@ export default function Work() {
       slug: 'social-ads',
       description: 'High-impact campaign creatives engineered for Meta, TikTok, and paid social performance with scroll-stopping aesthetics.',
       layoutType: 'large-left',
-      mainImage: '/images/social-ads/e951052e-dfd1-48f4-81a1-623c77ffffc2.jpg',
+      mainImage: `${BASE}images/social-ads/e951052e-dfd1-48f4-81a1-623c77ffffc2.jpg`,
       mainAlt: 'Summer Collection 2024 editorial campaign creative',
       subImages: [
         {
-          url: '/images/social-ads/8d2d3428-bc55-41f2-a57b-85b4df698f7c.jpg',
+          url: `${BASE}images/social-ads/8d2d3428-bc55-41f2-a57b-85b4df698f7c.jpg`,
           alt: 'C-Glow Vitamin C Serum performance creative',
         },
       ],
@@ -85,15 +86,15 @@ export default function Work() {
       slug: 'ugc',
       description: 'Authentic creator-style photography and casual real-world framing that builds organic social proof and customer confidence.',
       layoutType: 'large-right',
-      mainImage: '/images/ugc/01_RAW/WhatsApp Image 2026-09-01 at 12.46.24 PM.jpeg',
+      mainImage: `${BASE}images/ugc/01_RAW/WhatsApp Image 2026-09-01 at 12.46.24 PM.jpeg`,
       mainAlt: 'Handbag in natural organic ceramic setting',
       subImages: [
         {
-          url: '/images/ugc/01_RAW/WhatsApp Image 2026-09-01 at 12.39.57 PM.jpeg',
+          url: `${BASE}images/ugc/01_RAW/WhatsApp Image 2026-09-01 at 12.39.57 PM.jpeg`,
           alt: 'Silver chain bracelet in-hand close-up',
         },
         {
-          url: '/images/ugc/01_RAW/WhatsApp Image 2026-09-01 at 12.44.08 PM.jpeg',
+          url: `${BASE}images/ugc/01_RAW/WhatsApp Image 2026-09-01 at 12.44.08 PM.jpeg`,
           alt: 'Gold necklace worn in outdoor cafe setting',
         },
       ],
